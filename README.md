@@ -2,9 +2,9 @@
 
 I read the dataset and started to explore it. I used info() to see what columns and data types is each column
 
-`0   id            426880 non-null  int64  
- 1   region        426880 non-null  object 
- 2   price         426880 non-null  int64  
+`0   id            426880 non-null  int64
+ 1   region        426880 non-null  object
+ 2   price         426880 non-null  int64
  3   year          425675 non-null  float64
  4   manufacturer  409234 non-null  object 
  5   model         421603 non-null  object 
