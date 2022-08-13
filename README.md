@@ -1,5 +1,12 @@
 # What drives the price of a car
 
+# Deliverables
+
+The Jupyter notebook is available here:
+[Jupyter Notebook](https://github.com/hossamfattah/mlmodule11/blob/3bd6deaa9dca0e72a0f3857b30e101409c2af454/MyWorkF.ipynb)
+
+
+# Discussion
 I read the dataset and started to explore it. I used info() to see what columns and data types is each column
 
 `0   id            426880 non-null  int64
