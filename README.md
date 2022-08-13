@@ -5,7 +5,7 @@ I read the dataset and started to explore it. I used info() to see what columns 
 <class 'pandas.core.frame.DataFrame'>
 RangeIndex: 426880 entries, 0 to 426879
 Data columns (total 18 columns):
- #   Column        Non-Null Count   Dtype  
+     Column        Non-Null Count   Dtype  
 ---  ------        --------------   -----  
  0   id            426880 non-null  int64  
  1   region        426880 non-null  object 
