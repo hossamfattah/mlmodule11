@@ -77,7 +77,10 @@ his is a scatter plot of price by odometer. It shows prices icreases with decrea
 
 I started using linear regression model and polynomial with each of the numeric features and calculated MSE.
 
-This is linear regression model with varying polynomial degrees for features: 'odometer' and target 'price'
+This is linear regression model with varying polynomial degrees for features: 
+**'odometer'**
+
+and target 'price'
 
 ![Screenshot](./images/MSE_odometer.png)
 
@@ -87,7 +90,11 @@ This is linear regression model with varying polynomial degrees for features: 'c
 ![Screenshot](./images/MSE_cylinders.png)
 
 
-This is linear regression model with varying polynomial degrees for features: 'odometer','year','cylinders' and target 'price'
+This is linear regression model with varying polynomial degrees for features: 
+
+**'odometer','year','cylinders' **
+
+and target 'price'
 
 ![Screenshot](./images/MSE_lr.png)
 
@@ -98,7 +105,10 @@ There are many non-numeric features in the dataset (catogiral features). I used 
 
 
 Then, I used a linear regression model with varying polynomial degrees and standard scaler for 
-features: 'fuel_diesel','type_truck','size_full-size','drive_4wd', 'odometer','year','cylinders'
+features: 
+
+**'fuel_diesel','type_truck','size_full-size','drive_4wd', 'odometer','year','cylinders'**
+
 and target 'price'
 
 I choosed those features because they are the highly corrlated features with the target.
