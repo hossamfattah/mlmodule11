@@ -2,8 +2,7 @@
 
 I read the dataset and started to explore it. I used info() to see what columns and data types is each column
 
-
- 0   id            426880 non-null  int64  
+`0   id            426880 non-null  int64  
  1   region        426880 non-null  object 
  2   price         426880 non-null  int64  
  3   year          425675 non-null  float64
@@ -20,5 +19,6 @@ I read the dataset and started to explore it. I used info() to see what columns 
  14  size          120519 non-null  object 
  15  type          334022 non-null  object 
  16  paint_color   296677 non-null  object 
- 17  state         426880 non-null  object 
+ 17  state         426880 non-null  object `
+ 
 
