@@ -2,11 +2,7 @@
 
 I read the dataset and started to explore it. I used info() to see what columns and data types is each column
 
-<class 'pandas.core.frame.DataFrame'>
-RangeIndex: 426880 entries, 0 to 426879
-Data columns (total 18 columns):
-     Column        Non-Null Count   Dtype  
----  ------        --------------   -----  
+
  0   id            426880 non-null  int64  
  1   region        426880 non-null  object 
  2   price         426880 non-null  int64  
@@ -25,6 +21,4 @@ Data columns (total 18 columns):
  15  type          334022 non-null  object 
  16  paint_color   296677 non-null  object 
  17  state         426880 non-null  object 
-dtypes: float64(2), int64(2), object(14)
-memory usage: 58.6+ MB
 
