@@ -42,14 +42,21 @@ I read the dataset and started to explore it. I used info() to see what columns 
 I noticed 'cylinders' column can be converted to numeric column after removing the substring "cylinders". I did that and converted 'cylinders' into numeric column
 
 To understand data, I plotted histogram of different numeric features. 
+
 This is by price
+
 ![Screenshot](./images/HistPrice.png)
 
+
 This is by year
+
 ![Screenshot](./images/HistYear.png)
 
+
 This is by odometer
+
 ![Screenshot](./images/HistOdometer.png)
+
 
 The corrleation of each feature to the target price is also listed below
 
@@ -86,6 +93,7 @@ This is linear regression model with varying polynomial degrees for features: 'o
 
 
 There are many non-numeric features in the dataset (catogiral features). I used on-hot encoder and converted all of them to the following ( i excluded very few columns which are not relevenat to price such as VIN):
+
 ![Screenshot](./images/ohenc.png)
 
 
